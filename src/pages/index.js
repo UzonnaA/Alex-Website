@@ -18,7 +18,8 @@ export default function Home() {
       {/* Homepage - Section 1  */}
       <div className="bg-[#104953] py-10">
 
-        <div className="max-w-7xl ml-110 flex flex-col md:flex-row items-center gap-12">
+        <div className="max-w-7xl flex flex-col text-center items-center gap-12 px-2
+        md:ml-110 md:flex-row md:text-left">
           
           {/* Text Section */}
           <div className="md:w-43/100">
@@ -27,7 +28,7 @@ export default function Home() {
           </div>
 
           {/* Image Section */}
-          <div className="md:w-1/4 shadow-xl ml-15">
+          <div className="md:w-1/4 shadow-xl md:ml-15">
             <img
               src="/images/kite-runner-cover.jpeg" // Place image in /public/images/
               alt="The Kite Runner Book Cover"
@@ -39,17 +40,17 @@ export default function Home() {
 
       {/* Homepage - Section 2 */}
       <div className="bg-amber-50 py-10 flex flex-col items-center">
-        <p className="text-2xl max-w-170 text-center mb-2">“Alexander&apos;s work is just amazing. Truly inspiring. Some other text that sounds good for now!”</p>
+        <p className="text-2xl max-w-170 text-center mb-2 px-2">“Alexander&apos;s work is just amazing. Truly inspiring. Some other text that sounds good for now!”</p>
         <p className="">—Somebody</p>
       </div>
 
       {/* Homepage - Section 3 */}
-      <div className="bg-white py-15">
+      <div className="bg-white py-15 px-2">
 
-        <div className="max-w-7xl ml-95 flex flex-col md:flex-row items-center gap-12">
+        <div className="max-w-7xl md:ml-95 flex flex-col md:flex-row items-center gap-12">
 
           {/* Image Section */}
-          <div className="md:w-40/100 shadow-xl ml-15">
+          <div className="md:w-40/100 shadow-xl md:ml-15">
             <img
               src="/images/alex-portrait.jpg" // Place image in /public/images/
               alt="Alex Alexander Portrait"
