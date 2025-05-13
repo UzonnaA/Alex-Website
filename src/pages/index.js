@@ -30,9 +30,9 @@ export default function Home() {
           {/* Image Section */}
           <div className="md:w-1/4 shadow-xl md:ml-15">
             <img
-              src="/images/kite-runner-cover.jpeg" // Place image in /public/images/
-              alt="The Kite Runner Book Cover"
-              className="border-1 border-red-600"
+              src="/images/book1_cover.jpg" // Place image in /public/images/
+              alt="The Lost Keys of Mechanism"
+              className=""
             />
           </div>
         </div>
