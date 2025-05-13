@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from 'next/link'
 import { Geist, Geist_Mono } from "next/font/google";
 
 const geistSans = Geist({
@@ -14,7 +15,7 @@ const geistMono = Geist_Mono({
 export default function Home() {
   return (
     <section>
-      {/* Section 1 - Homepage */}
+      {/* Homepage - Section 1  */}
       <div className="bg-[#104953] py-10">
 
         <div className="max-w-7xl ml-110 flex flex-col md:flex-row items-center gap-12">
@@ -36,10 +37,39 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Section 2 - Homepage */}
+      {/* Homepage - Section 2 */}
       <div className="bg-amber-50 py-10 flex flex-col items-center">
         <p className="text-2xl max-w-170 text-center mb-2">“Alexander&apos;s work is just amazing. Truly inspiring. Some other text that sounds good for now!”</p>
         <p className="">—Somebody</p>
+      </div>
+
+      {/* Homepage - Section 3 */}
+      <div className="bg-white py-15">
+
+        <div className="max-w-7xl ml-95 flex flex-col md:flex-row items-center gap-12">
+
+          {/* Image Section */}
+          <div className="md:w-40/100 shadow-xl ml-15">
+            <img
+              src="/images/alex-portrait.jpg" // Place image in /public/images/
+              alt="Alex Alexander Portrait"
+              className=""
+            />
+          </div>
+          
+          {/* Text Section */}
+          <div className="md:w-43/100">
+            <p className="text-blue-950 text-2xl mb-1 [font-family:'Cinzel',serif] font-bold">About Alex Alexander</p>
+            <p className="text-black text-xl mb-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, fuga tempora. Accusamus adipisci doloribus cum voluptas itaque, voluptates vel nobis ab, repellat quas at officiis tempora sit, totam enim dicta.</p>
+            <Link href="/bio">
+              <button className="bg-[#0e3a5b] text-white px-4 py-2 text-sm font-semibold cursor-pointer transition transform 
+              duration-100 ease-in-out hover:scale-120">FULL BIO</button>
+            </Link>
+
+          </div>
+
+          
+        </div>
       </div>
 
 
