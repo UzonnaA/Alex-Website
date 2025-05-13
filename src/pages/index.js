@@ -22,7 +22,7 @@ export default function Home() {
           {/* Text Section */}
           <div className="md:w-43/100">
             <p className="text-amber-100 text-xl mb-8">The 20th anniversary edition of the #1 New York Times bestselling novel beloved by readers the world over, with a new afterword by Khaled Hosseini</p>
-            <p className="text-white text-xl mb-12">Since its publication in 2003, The Kite Runner has become a beloved, one-of-a-kind classic of contemporary literature, touching millions of readers, and launching the career of one of America's most treasured writers.</p>
+            <p className="text-white text-xl mb-12">Since its publication in 2003, The Kite Runner has become a beloved, one-of-a-kind classic of contemporary literature, touching millions of readers, and launching the career of one of America&apos;s most treasured writers.</p>
           </div>
 
           {/* Image Section */}
