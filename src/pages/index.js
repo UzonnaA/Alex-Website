@@ -21,8 +21,8 @@ export default function Home() {
           
           {/* Text Section */}
           <div className="md:w-43/100">
-            <p className="text-amber-100 text-xl mb-8">The 20th anniversary edition of the #1 New York Times bestselling novel beloved by readers the world over, with a new afterword by Khaled Hosseini</p>
-            <p className="text-white text-xl mb-12">Since its publication in 2003, The Kite Runner has become a beloved, one-of-a-kind classic of contemporary literature, touching millions of readers, and launching the career of one of America&apos;s most treasured writers.</p>
+            <p className="text-amber-100 text-xl mb-8">This is some default text that will change in the future!</p>
+            <p className="text-white text-xl mb-12">This is some optional default text that can also be filled!</p>
           </div>
 
           {/* Image Section */}
@@ -38,8 +38,8 @@ export default function Home() {
 
       {/* Section 2 - Homepage */}
       <div className="bg-amber-50 py-10 flex flex-col items-center">
-        <p className="text-2xl max-w-170 text-center mb-2">“Hosseini’s writing makes our hearts ache, our stomachs clench, and our emotions reel.”</p>
-        <p className="">—USA Today</p>
+        <p className="text-2xl max-w-170 text-center mb-2">“Alexander&apos;s work is just amazing. Truly inspiring. Some other text that sounds good for now!”</p>
+        <p className="">—Somebody</p>
       </div>
 
 
