@@ -11,8 +11,10 @@ const Header = () => {
     const activeColor = "text-yellow-100 font-bold border-b-2 border-yellow-300 hover:text-white hover:border-white";
     return (
         <section>
-            <div className="flex justify-center bg-[#125561]  md:py-4 md:pt-12">
-                <p className="text-7xl [font-family:'Cinzel',serif] font-medium text-white text-center md:text-left">Alex Alexander</p>
+            <div className="bg-[#125561] py-6 md:py-4 md:pt-12">
+                <div className="px-4 md:px-0 flex justify-center">
+                    <p className="text-5xl md:text-7xl [font-family:'Cinzel',serif] font-medium text-white text-center md:text-left">Alex Alexander</p>
+                </div>
             </div>
             <div className="bg-black py-1 flex justify-center gap-20">
                 <Link href="/" className={currentPath === '/' ? activeColor : defaultColor}>
