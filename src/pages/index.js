@@ -30,7 +30,7 @@ export default function Home() {
           {/* Image Section */}
           <div className="md:w-1/4 shadow-xl md:ml-15">
             <img
-              src="/images/book1_cover.jpg" // Place image in /public/images/
+              src="/images/lost-keys_cover.jpg" // Place image in /public/images/
               alt="The Lost Keys of Mechanism"
               className=""
             />
