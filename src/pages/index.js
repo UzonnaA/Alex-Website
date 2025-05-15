@@ -16,15 +16,15 @@ export default function Home() {
   return (
     <section>
       {/* Homepage - Section 1  */}
-      <div className="bg-[#104953] py-10">
+      <div className="bg-[#f3f5f9] py-10">
 
         <div className="max-w-7xl flex flex-col text-center items-center gap-12 px-2
         md:ml-110 md:flex-row md:text-left">
           
           {/* Text Section */}
           <div className="md:w-43/100">
-            <p className="text-amber-100 text-xl mb-8">This is some default text that will change in the future!</p>
-            <p className="text-white text-xl mb-12">This is some optional default text that can also be filled!</p>
+            <p className="text-[var(--mainBlue)] font-bold text-xl mb-8">This is some default text that will change in the future!</p>
+            <p className="text-black text-lg mb-12">This is some optional default text that can also be filled!</p>
           </div>
 
           {/* Image Section */}
@@ -39,7 +39,7 @@ export default function Home() {
       </div>
 
       {/* Homepage - Section 2 */}
-      <div className="bg-amber-50 py-10 flex flex-col items-center">
+      <div className="bg-amber-300 py-10 flex flex-col items-center">
         <p className="text-2xl max-w-170 text-center mb-2 px-2">“Alexander&apos;s work is just amazing. Truly inspiring. Some other text that sounds good for now!”</p>
         <p className="">—Somebody</p>
       </div>
@@ -60,10 +60,10 @@ export default function Home() {
           
           {/* Text Section */}
           <div className="md:w-43/100">
-            <p className="text-blue-950 text-2xl mb-1 [font-family:'Cinzel',serif] font-bold">About Alex Alexander</p>
+            <p className="text-[var(--mainBlue)] text-2xl mb-1 [font-family:'Cinzel',serif] font-bold">About Alex Alexander</p>
             <p className="text-black text-xl mb-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, fuga tempora. Accusamus adipisci doloribus cum voluptas itaque, voluptates vel nobis ab, repellat quas at officiis tempora sit, totam enim dicta.</p>
             <Link href="/bio">
-              <button className="bg-[#0e3a5b] text-white px-4 py-2 text-sm font-semibold cursor-pointer transition transform 
+              <button className="bg-[var(--mainBlue)] text-white px-4 py-2 text-sm font-semibold cursor-pointer transition transform 
               duration-100 ease-in-out hover:scale-120">FULL BIO</button>
             </Link>
 
