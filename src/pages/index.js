@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <section>
       {/* Homepage - Section 1  */}
-      <div className="bg-[#f3f5f9] py-10">
+      <div className="bg-[#e5edfc] py-10">
 
         <div className="max-w-7xl flex flex-col text-center items-center gap-12 px-2
         md:ml-110 md:flex-row md:text-left">
