@@ -50,7 +50,7 @@ export default function Home() {
         <div className="max-w-7xl md:ml-95 flex flex-col md:flex-row items-center gap-12">
 
           {/* Image Section */}
-          <div className="md:w-40/100 shadow-xl md:ml-15">
+          <div className=" shadow-xl md:ml-15">
             <img
               src="/images/alex-portrait.jpg" // Place image in /public/images/
               alt="Alex Alexander Portrait"
