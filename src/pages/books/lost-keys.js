@@ -38,7 +38,7 @@ export default function LostKeys() {
       </div>
 
       <div className="mb-4">
-        <p>"A unique read that encourages individuals to seek answers in a more grounded yet practical way. With various symbols that have since lost their meaning and significance, the author does a great job of bringing light to their different essences concisely yet pragmatically."</p>
+        <p>&quot;A unique read that encourages individuals to seek answers in a more grounded yet practical way. With various symbols that have since lost their meaning and significance, the author does a great job of bringing light to their different essences concisely yet pragmatically.&quot;</p>
         <p className="font-bold">—The Moving Words</p>
       </div>
       
