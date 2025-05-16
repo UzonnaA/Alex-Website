@@ -31,7 +31,7 @@ export default function SevenArts() {
         <p>Although the liberal arts were formally adopted during the Medieval period, their roots extend much further back to the Pythagorean and Platonic eras. They were structured to reflect a progressive path in education. The first three subjects are Grammar, Logic, and Rhetoric. Together, they are known as the Trivium, a term that means &quot;the path of three roads.&quot; These subjects were regarded as the foundational intellectual tools that lead to the truth of the mind.</p>
         <p>The remaining four subjects are Arithmetic, Geometry, Music, and Astronomy. These form what is called the Quadrivium, a name derived from the Latin word quatuor, meaning &quot;four.&quot; These four disciplines were considered the path to understanding the truth of matter.</p>
         <p>When one studies the subjects that comprise the Trivium and the Quadrivium, specific regions of the brain are stimulated in ways that enhance cognitive function and natural mental ability. This results in the transformation of mental processes from disorder to order, allowing one to pursue and accomplish any goal in life more effectively.</p>
-        <p>This is why initiated Mechanics are strongly encouraged to study the Liberal Arts. These disciplines truly &quot;polish and adorn the mind&quot;, increasing awareness and responsiveness to one’s surroundings, which are essential qualities for the journey of the initiated Mechanic.</p>
+        <p>This is why initiated Mechanics are strongly encouraged to study the Liberal Arts. These disciplines truly &quot;polish and adorn the mind&quot;, increasing awareness and responsiveness to one&apos;s surroundings, which are essential qualities for the journey of the initiated Mechanic.</p>
 
       </div>
 
@@ -46,7 +46,7 @@ export default function SevenArts() {
       </div>
 
       <div className="mb-4">
-        <p>"Add Text Here"</p>
+        <p>&quot;Add Text Here&quot;</p>
         <p className="font-bold">—Unknown</p>
       </div>
       

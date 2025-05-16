@@ -40,7 +40,7 @@ export default function Home() {
 
       {/* Homepage - Section 2 */}
       <div className="bg-amber-300 py-10 flex flex-col items-center">
-        <p className="text-2xl max-w-170 text-center mb-2 px-2">“Alexander&apos;s work is just amazing. Truly inspiring. Some other text that sounds good for now!”</p>
+        <p className="text-2xl max-w-170 text-center mb-2 px-2">&quot;Alexander&apos;s work is just amazing. Truly inspiring. Some other text that sounds good for now!&quot;</p>
         <p className="">—Somebody</p>
       </div>
 
