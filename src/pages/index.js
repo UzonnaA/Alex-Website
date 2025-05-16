@@ -23,8 +23,8 @@ export default function Home() {
           
           {/* Text Section */}
           <div className="md:w-43/100">
-            <p className="text-[var(--mainBlue)] font-bold text-xl mb-8">This is some default text that will change in the future!</p>
-            <p className="text-black text-lg mb-12">This is some optional default text that can also be filled!</p>
+            <p className="text-[var(--mainBlue)] font-bold text-xl mb-8">Discover the hidden wisdom behind the rites of Mechanism.</p>
+            <p className="text-black text-lg mb-12">This book, titled <span className="font-bold">The Lost Keys of Mechanism</span>, is written for initiated Mechanics. It has been prepared in the spirit of brotherhood — in the spirit of friendship, truth, and love — with the purpose of shedding light on the esoteric or hidden teachings found within some of the rituals of Mechanism.</p>
           </div>
 
           {/* Image Section */}
@@ -40,8 +40,8 @@ export default function Home() {
 
       {/* Homepage - Section 2 */}
       <div className="bg-amber-300 py-10 flex flex-col items-center">
-        <p className="text-2xl max-w-170 text-center mb-2 px-2">&ldquo;Alexander&apos;s work is just amazing. Truly inspiring. Some other text that sounds good for now!&rdquo;</p>
-        <p className="">—Somebody</p>
+        <p className="text-2xl max-w-170 text-center mb-2 px-2">&ldquo;A unique read that encourages individuals to seek answers in a more grounded yet practical way&rdquo;</p>
+        <p className="">—The Moving Words</p>
       </div>
 
       {/* Homepage - Section 3 */}

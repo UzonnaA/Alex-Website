@@ -41,14 +41,14 @@ export default function SevenArts() {
 
       <div className="clear-both"/>
 
-      <div className="mb-4 mt-10">
+      {/* <div className="mb-4 mt-10">
         <p className="font-bold">Praise</p>
       </div>
 
       <div className="mb-4">
         <p>&quot;Add Text Here&quot;</p>
         <p className="font-bold">—Unknown</p>
-      </div>
+      </div> */}
       
 
       
