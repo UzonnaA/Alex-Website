@@ -11,7 +11,7 @@ export default function SevenArts() {
       />
 
       <div className="mb-4">
-        <p><span className="font-bold">Published by: </span>Author House</p>
+        <p><span className="font-bold">Published by: </span>AuthorHouse</p>
         <p><span className="font-bold">Release Date: </span>October 17, 2022</p>
         <p><span className="font-bold">Buy the Book: </span> <span><a href="https://www.amazon.ca/Initiated-Mechanics-Seven-Liberal-Sciences/dp/1665571918" 
             className='text-blue-400  hover:border-b-1 hover:border-blue-400'

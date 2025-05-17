@@ -22,9 +22,14 @@ export default function Home() {
         md:ml-110 md:flex-row md:text-left">
           
           {/* Text Section */}
-          <div className="md:w-43/100">
-            <p className="text-[var(--mainBlue)] font-bold text-xl mb-8">Discover the hidden wisdom behind the rites of Mechanism.</p>
-            <p className="text-black text-lg mb-12">This book, titled <span className="font-bold">The Lost Keys of Mechanism</span>, is written for initiated Mechanics. It has been prepared in the spirit of brotherhood — in the spirit of friendship, truth, and love — with the purpose of shedding light on the esoteric or hidden teachings found within some of the rituals of Mechanism.</p>
+          <div className="md:w-43/100 space-y-8">
+            <p className="text-[var(--mainBlue)] font-bold text-xl ">Discover the hidden wisdom behind the rites of Mechanism.</p>
+            <p className="text-black text-lg ">This book, titled <span className="font-bold">The Lost Keys of Mechanism</span>, is written for initiated Mechanics. It has been prepared in the spirit of brotherhood — in the spirit of friendship, truth, and love — with the purpose of shedding light on the esoteric or hidden teachings found within some of the rituals of Mechanism.</p>
+
+            <Link href="/books">
+              <button className="bg-[var(--mainBlue)] text-white px-4 py-2 text-sm font-semibold cursor-pointer transition transform 
+              duration-100 ease-in-out hover:scale-105">LEARN MORE</button>
+            </Link>
           </div>
 
           {/* Image Section */}
@@ -41,7 +46,7 @@ export default function Home() {
       {/* Homepage - Section 2 */}
       <div className="bg-amber-300 py-10 flex flex-col items-center">
         <p className="text-2xl max-w-170 text-center mb-2 px-2">&ldquo;A unique read that encourages individuals to seek answers in a more grounded yet practical way&rdquo;</p>
-        <p className="">—The Moving Words</p>
+        <p className="text-gray-500">—The Moving Words</p>
       </div>
 
       {/* Homepage - Section 3 */}
@@ -64,7 +69,7 @@ export default function Home() {
             <p className="text-black text-xl mb-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, fuga tempora. Accusamus adipisci doloribus cum voluptas itaque, voluptates vel nobis ab, repellat quas at officiis tempora sit, totam enim dicta.</p>
             <Link href="/bio">
               <button className="bg-[var(--mainBlue)] text-white px-4 py-2 text-sm font-semibold cursor-pointer transition transform 
-              duration-100 ease-in-out hover:scale-120">FULL BIO</button>
+              duration-100 ease-in-out hover:scale-105">FULL BIO</button>
             </Link>
 
           </div>
