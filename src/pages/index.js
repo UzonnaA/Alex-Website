@@ -66,7 +66,7 @@ export default function Home() {
           {/* Text Section */}
           <div className="md:w-43/100">
             <p className="text-[var(--mainBlue)] text-2xl mb-1 [font-family:'Cinzel',serif] font-bold">About Alex Alexander</p>
-            <p className="text-black text-xl mb-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, fuga tempora. Accusamus adipisci doloribus cum voluptas itaque, voluptates vel nobis ab, repellat quas at officiis tempora sit, totam enim dicta.</p>
+            <p className="text-black text-xl mb-3">A Canadian author and philosophical thinker whose work explores the symbolic teachings and esoteric wisdom of the Mechanics Lodge. Drawing from decades of experience as both an initiated Mechanic and a hands-on engineer, his books uncover hidden knowledge and connect ancient educational traditions to modern spiritual and intellectual growth.</p>
             <Link href="/bio">
               <button className="bg-[var(--mainBlue)] text-white px-4 py-2 text-sm font-semibold cursor-pointer transition transform 
               duration-100 ease-in-out hover:scale-105">FULL BIO</button>
