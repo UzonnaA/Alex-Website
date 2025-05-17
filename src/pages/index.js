@@ -23,6 +23,7 @@ export default function Home() {
 
         <meta property="og:title" content="Alex Alexander – Author" />
         <meta property="og:description" content="Explore the esoteric teachings and books of Alex Alexander, focused on Mechanism and the Seven Liberal Arts." />
+        <meta property="og:image" content="https://alexalexander.top/images/lost-keys_cover.jpg" />
         <meta property="og:url" content="https://alexalexander.top" />
         <meta property="og:type" content="website" />
 
