@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Books() {
   return (
@@ -12,11 +13,20 @@ export default function Books() {
           
           {/* Book */}
           <Link href="/books/lost-keys">
-            <img
+            {/* <img
               src="/images/lost-keys_cover.jpg"
               alt="The Lost Keys of Mechanism"
               className="md:w-70 shadow-xl hover:scale-105 transition"
-            />
+            /> */}
+            <div className="md:w-70 shadow-xl hover:scale-105 transition">
+              <Image
+                src="/images/lost-keys_cover.jpg"
+                alt="The Lost Keys of Mechanism"
+                width={1000}
+                height={1463}
+                className=""
+              />
+            </div>
           </Link>
 
           {/* Text Link */}
@@ -36,11 +46,21 @@ export default function Books() {
           
           {/* Book */}
           <Link href="/books/seven-arts">
-            <img
+            {/* <img
               src="/images/seven-arts_cover.jpg"
               alt="An Initiated Mechanic&apos;s View of The Seven Liberal Arts and Sciences"
               className="md:w-70 shadow-xl hover:scale-105 transition"
-            />
+            /> */}
+
+            <div className="md:w-70 shadow-xl hover:scale-105 transition">
+              <Image
+                src="/images/seven-arts_cover.jpg"
+                alt="An Initiated Mechanic&apos;s View of The Seven Liberal Arts and Sciences"
+                width={907}
+                height={1360}
+                className=""
+              />
+            </div>
           </Link>
 
           {/* Text Link */}

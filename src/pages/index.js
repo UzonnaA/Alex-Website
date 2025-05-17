@@ -15,6 +15,25 @@ const geistMono = Geist_Mono({
 export default function Home() {
   return (
     <section>
+
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Official author site of Alex Alexander, writer of The Lost Keys of Mechanism and An Initiated Mechanic's View of the Seven Liberal Arts and Sciences." />
+
+        <meta property="og:title" content="Alex Alexander – Author" />
+        <meta property="og:description" content="Explore the esoteric teachings and books of Alex Alexander, focused on Mechanism and the Seven Liberal Arts." />
+        <meta property="og:url" content="https://alexalexander.top" />
+        <meta property="og:type" content="website" />
+
+        <title>Alex Alexander – Author</title>
+      </head> 
+
+
+
+
+
+
       {/* Homepage - Section 1  */}
       <div className="bg-[#e5edfc] py-10">
 
@@ -34,11 +53,22 @@ export default function Home() {
 
           {/* Image Section */}
           <div className="md:w-1/4 shadow-xl md:ml-15">
-            <img
+            {/* <img
               src="/images/lost-keys_cover.jpg" // Place image in /public/images/
               alt="The Lost Keys of Mechanism"
               className=""
-            />
+            /> */}
+            <div className="">
+              <Image
+                src="/images/lost-keys_cover.jpg"
+                alt="The Lost Keys of Mechanism"
+                width={1000}
+                height={1463}
+                className=""
+              />
+            </div>
+
+            
           </div>
         </div>
       </div>
@@ -56,11 +86,21 @@ export default function Home() {
 
           {/* Image Section */}
           <div className=" shadow-xl md:ml-15">
-            <img
+            {/* <img
               src="/images/alex-portrait.jpg" // Place image in /public/images/
               alt="Alex Alexander Portrait"
               className=""
-            />
+            /> */}
+
+            <div className="">
+              <Image
+                src="/images/alex-portrait.jpg"
+                alt="Alex Alexander"
+                width={384}
+                height={512}
+                className=""
+              />
+            </div>
           </div>
           
           {/* Text Section */}

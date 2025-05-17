@@ -1,14 +1,25 @@
+import Image from "next/image"
 export default function SevenArts() {
   return (
     <section className="px-6 py-10 max-w-6xl mx-auto">
       
       <h2 className="text-3xl font-bold mb-3 text-center md:text-left">An Initiated Mechanic&apos;s View of The Seven Liberal Arts and Sciences</h2>
 
-      <img
+      {/* <img
         src="/images/seven-arts_cover.jpg"
         alt="Lost Keys"
         className="float-none md:float-left w-full md:w-1/2 max-w-sm mb-4 border shadow-md md:mr-5"
-      />
+      /> */}
+
+      <div className="float-none md:float-left w-full md:w-1/2 max-w-sm mb-4 border shadow-md md:mr-5">
+        <Image
+          src="/images/seven-arts_cover.jpg"
+          alt="Seven Arts"
+          width={907}
+          height={1360}
+          className=""
+        />
+      </div>
 
       <div className="mb-4">
         <p><span className="font-bold">Published by: </span>AuthorHouse</p>

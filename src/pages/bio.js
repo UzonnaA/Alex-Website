@@ -1,11 +1,24 @@
+import Image from "next/image"
+
 export default function Bio() {
   return (
     <section className="px-6 py-10 max-w-4xl mx-auto text-justify">
-      <img
+      {/* <img
         src="/images/alex-portrait.jpg"
         alt="Alex Alexander"
         className="float-none md:float-right w-full md:w-1/2 max-w-sm ml-0 md:ml-6 mb-4 border shadow-md md:mt-15"
-      />
+      /> */}
+
+      <div className="float-none md:float-right w-full md:w-1/2 max-w-sm ml-0 md:ml-6 mb-4 border shadow-md md:mt-15">
+        <Image
+          src="/images/alex-portrait.jpg"
+          alt="Alex Alexander"
+          width={384}
+          height={512}
+          className=""
+        />
+      </div>
+
 
       <h2 className="text-3xl font-bold mb-4">Bio</h2>
 

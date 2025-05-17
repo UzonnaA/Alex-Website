@@ -1,14 +1,26 @@
+import Image from "next/image"
+
 export default function LostKeys() {
   return (
     <section className="px-6 py-10 max-w-6xl mx-auto">
       
       <h2 className="text-3xl font-bold mb-3 text-center md:text-left">The Lost Keys of Mechanism</h2>
 
-      <img
+      {/* <img
         src="/images/lost-keys_cover.jpg"
         alt="Lost Keys"
         className="float-none md:float-left w-full md:w-1/2 max-w-sm mb-4 border shadow-md md:mr-5"
-      />
+      /> */}
+
+      <div className="float-none md:float-left w-full md:w-1/2 max-w-sm mb-4 border shadow-md md:mr-5">
+        <Image
+          src="/images/lost-keys_cover.jpg"
+          alt="Lost Keys"
+          width={1000}
+          height={1463}
+          className=""
+        />
+      </div>
 
       <div className="mb-4">
         <p><span className="font-bold">Published by: </span>Independently Published</p>
