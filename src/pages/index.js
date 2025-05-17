@@ -58,7 +58,7 @@ export default function Home() {
               alt="The Lost Keys of Mechanism"
               className=""
             /> */}
-            <div className="">
+            <div className="" data-aos="fade-left" data-aos-duration="1000">
               <Image
                 src="/images/lost-keys_cover.jpg"
                 alt="The Lost Keys of Mechanism"
@@ -85,7 +85,7 @@ export default function Home() {
         <div className="max-w-7xl md:ml-95 flex flex-col md:flex-row items-center gap-12">
 
           {/* Image Section */}
-          <div className=" shadow-xl md:ml-15">
+          <div className=" shadow-xl md:ml-15" data-aos="fade-right" data-aos-duration="1000">
             {/* <img
               src="/images/alex-portrait.jpg" // Place image in /public/images/
               alt="Alex Alexander Portrait"
@@ -104,7 +104,7 @@ export default function Home() {
           </div>
           
           {/* Text Section */}
-          <div className="md:w-43/100">
+          <div className="md:w-43/100" data-aos="fade-left" data-aos-duration="1000">
             <p className="text-[var(--mainBlue)] text-2xl mb-1 [font-family:'Cinzel',serif] font-bold">About Alex Alexander</p>
             <p className="text-black text-xl mb-3">A Canadian author and philosophical thinker whose work explores the symbolic teachings and esoteric wisdom of the Mechanics Lodge. Drawing from decades of experience as both an initiated Mechanic and a hands-on engineer, his books uncover hidden knowledge and connect ancient educational traditions to modern spiritual and intellectual growth.</p>
             <Link href="/bio">
