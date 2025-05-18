@@ -36,7 +36,7 @@ export function QuoteRotator() {
   }, []);
 
   return (
-    <div className="bg-amber-300 py-10 flex flex-col items-center transition-all overflow-hidden">
+    <div className="bg-amber-300 h-[200px] md:h-[150px] flex flex-col items-center transition-all overflow-hidden justify-center text-balance">
         <p
         className={`text-2xl max-w-3xl text-center mb-2 px-4 transition-all duration-500 ease-in-out transform ${
             fade ? "opacity-0 translate-y-4" : "opacity-100 translate-y-0"
