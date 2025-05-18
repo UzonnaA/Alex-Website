@@ -9,7 +9,7 @@ export default function Bio() {
         className="float-none md:float-right w-full md:w-1/2 max-w-sm ml-0 md:ml-6 mb-4 border shadow-md md:mt-15"
       /> */}
 
-      <div className="float-none md:float-right w-full md:w-1/2 max-w-sm ml-0 md:ml-6 mb-4 border shadow-md md:mt-15">
+      <div className="float-none md:float-right w-full md:w-1/2 max-w-sm ml-0 md:ml-6 mb-4 border shadow-md md:mt-15" data-aos="fade-down" data-aos-duration="1000">
         <Image
           src="/images/alex-portrait.jpg"
           alt="Alex Alexander"

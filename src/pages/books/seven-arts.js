@@ -11,7 +11,7 @@ export default function SevenArts() {
         className="float-none md:float-left w-full md:w-1/2 max-w-sm mb-4 border shadow-md md:mr-5"
       /> */}
 
-      <div className="float-none md:float-left w-full md:w-1/2 max-w-sm mb-4 border shadow-md md:mr-5">
+      <div className="float-none md:float-left w-full md:w-1/2 max-w-sm mb-4 border shadow-md md:mr-5" data-aos="fade-up-left" data-aos-duration="1000">
         <Image
           src="/images/seven-arts_cover.jpg"
           alt="Seven Arts"

@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Link from 'next/link'
 import { Geist, Geist_Mono } from "next/font/google";
+import { useEffect, useState } from "react";
+import { QuoteRotator } from "@/components/quoterotater";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -12,7 +14,12 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+
+
+
+
 export default function Home() {
+  
   return (
     <section>
 
@@ -53,7 +60,7 @@ export default function Home() {
           </div>
 
           {/* Image Section */}
-          <div className="md:w-1/4 shadow-xl md:ml-15">
+          <div className="md:w-1/3 md:ml-15">
             {/* <img
               src="/images/lost-keys_cover.jpg" // Place image in /public/images/
               alt="The Lost Keys of Mechanism"
@@ -61,10 +68,10 @@ export default function Home() {
             /> */}
             <div className="" data-aos="fade-left" data-aos-duration="1000">
               <Image
-                src="/images/lost-keys_cover.jpg"
+                src="/images/lost-keys_cover2.png"
                 alt="The Lost Keys of Mechanism"
-                width={1000}
-                height={1463}
+                width={498}
+                height={575}
                 className=""
               />
             </div>
@@ -75,10 +82,7 @@ export default function Home() {
       </div>
 
       {/* Homepage - Section 2 */}
-      <div className="bg-amber-300 py-10 flex flex-col items-center">
-        <p className="text-2xl max-w-170 text-center mb-2 px-2">&ldquo;A unique read that encourages individuals to seek answers in a more grounded yet practical way&rdquo;</p>
-        <p className="text-gray-500">—The Moving Words</p>
-      </div>
+      <QuoteRotator />
 
       {/* Homepage - Section 3 */}
       <div className="bg-white py-15 px-2">
@@ -107,7 +111,7 @@ export default function Home() {
           {/* Text Section */}
           <div className="md:w-43/100" data-aos="fade-left" data-aos-duration="1000">
             <p className="text-[var(--mainBlue)] text-2xl mb-1 [font-family:'Cinzel',serif] font-bold">About Alex Alexander</p>
-            <p className="text-black text-xl mb-3">A Canadian author and philosophical thinker whose work explores the symbolic teachings and esoteric wisdom of the Mechanics Lodge. Drawing from decades of experience as both an initiated Mechanic and a hands-on engineer, his books uncover hidden knowledge and connect ancient educational traditions to modern spiritual and intellectual growth.</p>
+            <p className="text-black text-xl mb-3 [font-family:'Geist',serif]">A Canadian author and philosophical thinker whose work explores the symbolic teachings and esoteric wisdom of the Mechanics Lodge. Drawing from decades of experience as both an initiated Mechanic and a hands-on engineer, his books uncover hidden knowledge and connect ancient educational traditions to modern spiritual and intellectual growth.</p>
             <Link href="/bio">
               <button className="bg-[var(--mainBlue)] text-white px-4 py-2 text-sm font-semibold cursor-pointer transition transform 
               duration-100 ease-in-out hover:scale-105">FULL BIO</button>
